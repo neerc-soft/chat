@@ -8,22 +8,33 @@ Persistence of a particular feature in the list doesn't yet mean that the featur
 
 _You may add any of your ideas below._
 
+== Networking ==
   * *Automatic reconnect*
-  * *Intelligent messages (and tasks) local caching and load-up from server at login*: Now you'll loose all chat messages and reload all important tasks twice after reconnect.
-  * *Split 'flood' from 'important messages'* (either simply by color/font-size or even move them into separate frame; _in case if color/font-size gradation usage several priority categories may be done: technical problems with computers, rules clarifications (..."may they use mobile phones at practice session?"), problems with teams, critical problems (eg. if some shit happened, and Matvey does not respond to the walkietalkie, or the walkietalkie battery got down, or hall-manager accidentally took the walkietalkie out of the hall), etc._)
+  * *Display connection status*
+  * *Intelligent messages (and tasks) local caching and load-up from server at login*: currently you lose all regular chat messages and reload all important tasks twice after reconnect.
+  * *Allow several concurrent sessions for same user* (may be useful for manager users)
+  * *Allow wildcards in login-to-IP binding* (might be useful for manager users, however this is quite insecure without passwords)
+
+== Logging ==
+  * *Fix double/triple timestamps*
+  * *Remove duplicate 'important' messages* dumped on each reconnect
+  * *Fix encoding* in console (1251 to 866)
+
+== Task manager ==
   * *Make tasks progress visible to everybody* (this might really help to self-organize)
   * *Make other minor stuff visible to everybody* (contest duration clock, help button, etc.)
   * *Allow everybody to add tasks*
-  * *Allow several concurrent sessions for same user* (may be useful for manager users)
+  * *Task scheduling* for particular time (either absolute or measured from contest start)
+
+== UI ==
+  * *Separate 'flood' from 'important messages'* (either simply by color/font-size or even move them into separate frame; _in case if color/font-size gradation usage several priority categories may be done: technical problems with computers, rules clarifications (..."may they use mobile phones at practice session?"), problems with teams, critical problems (eg. if some shit happened, and Matvey does not respond to the walkietalkie, or the walkietalkie battery got down, or hall-manager accidentally took the walkietalkie out of the hall), etc._)
   * *Improve 'alerts' on tasks/'important messages'*; here several different complementary features may be implemented:
     * All new messages (and tasks) in chat are highlighted in bright color (and the highlight gets duller as the message gets older)
     * Make separate 'always-on-top' window for upper 'important-messages' panel (volunteers sometimes may stare to the monitor or do some other stuff at the computer, you know...)
     * Make chat client pop-up on top of all other windows each time a task is assigned
-    * Make chat client beep over PC-speaker each time a task is assigned (the chat-guy may be sleeping on the key-board ;) )
+    * Make chat client beep over PC-speaker (echo \x07 to the console) each time a task is assigned (the chat-guy may be sleeping on the key-board ;) )
     * Highlight uncompleted tasks with bold red letters (it fixes the problem when the task is actually done but the chat-guy forgot to tick it in the chat)
-    * Introduce some 'reaction-points' for halls for ticking tasks quickly (or some negative-points for not doing this)
+    * Introduce some 'reaction-points' (penalty time =))) for halls for ticking tasks quickly (or some negative-points for not doing this)
   * *Make separate request-type for questions concerning list of computers/teams* like "which teams are not here yet?" or "which computers are "good" for teams to sit and which are not?" or "which computers don't have wallpapers yet" (this might be useful on management-side)
   * *Generate single message-box for bunch of assigned tasks* (so there will be no need to click 'Ok' for 5 times)
   * *Color user logins in chat window* in order to distinguish them quickly
-  * *Task scheduling* for particular time (either absolute or measured from contest start)
-  * *Allow wildcards in login-to-IP binding* (might be useful for manager users, however this is quite insecure without passwords)
