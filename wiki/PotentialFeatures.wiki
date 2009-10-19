@@ -26,3 +26,4 @@ _You may add any of your ideas below._
   * *Generate single message-box for bunch of assigned tasks* (so there will be no need to click 'Ok' for 5 times)
   * *Color user logins in chat window* in order to distinguish them quickly
   * *Task scheduling* for particular time (either absolute or measured from contest start)
+  * *Allow wildcards in login-to-IP binding* (might be useful for manager users, however this is quite insecure without passwords)
