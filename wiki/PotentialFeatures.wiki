@@ -24,7 +24,7 @@ _You may add any of your ideas below._
   * *Make tasks progress visible to everybody* (this might really help to self-organize)
   * *Make other minor stuff visible to everybody* (contest duration clock, help button, etc.)
   * *Allow everybody to add tasks*
-  * [issue:1] *Task scheduling* for particular time (either absolute or measured from contest start)
+  * *[Task scheduling http://code.google.com/p/neerc-soft/issues/detail?id=1]* for particular time (either absolute or measured from contest start)
 
 == UI ==
   * *Separate 'flood' from 'important messages'* (either simply by color/font-size or even move them into separate frame; _in case if color/font-size gradation usage several priority categories may be done: technical problems with computers, rules clarifications (..."may they use mobile phones at practice session?"), problems with teams, critical problems (eg. if some shit happened, and Matvey does not respond to the walkietalkie, or the walkietalkie battery got down, or hall-manager accidentally took the walkietalkie out of the hall), etc._) *Updated, see [PotentialFeatures#Rooms Rooms]*.
