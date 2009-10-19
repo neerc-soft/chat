@@ -1,0 +1,6 @@
+#summary XMPP
+#labels Phase-Design
+
+= Links =
+
+[http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_3_6_4.tar.gz Openfire 3.6.4 Linux]
