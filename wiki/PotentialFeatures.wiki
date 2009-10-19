@@ -21,7 +21,7 @@ _You may add any of your ideas below._
   * *Fix encoding* in console (1251 to 866)
 
 == Task manager ==
-  * *Make tasks progress visible to everybody* (this might really help to self-organize)
+  * *[http://code.google.com/p/neerc-soft/issues/detail?id=4 Make tasks progress visible to everybody]* (this might really help to self-organize)
   * *Make other minor stuff visible to everybody* (contest duration clock, help button, etc.)
   * *Allow everybody to add tasks*
   * *[http://code.google.com/p/neerc-soft/issues/detail?id=1 Task scheduling]* for particular time (either absolute or measured from contest start)
