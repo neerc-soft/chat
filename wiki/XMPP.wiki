@@ -4,3 +4,10 @@
 = Links =
 
 [http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_3_6_4.tar.gz Openfire 3.6.4 Linux]
+
+= Server installation =
+ # Start server
+{{{
+./bin/openfire start
+}}}
+ # Open http://localhost:9090 and follow installation instructions (use *Embedded Database*)
