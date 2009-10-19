@@ -27,7 +27,7 @@ _You may add any of your ideas below._
   * *Task scheduling* for particular time (either absolute or measured from contest start)
 
 == UI ==
-  * *Separate 'flood' from 'important messages'* (either simply by color/font-size or even move them into separate frame; _in case if color/font-size gradation usage several priority categories may be done: technical problems with computers, rules clarifications (..."may they use mobile phones at practice session?"), problems with teams, critical problems (eg. if some shit happened, and Matvey does not respond to the walkietalkie, or the walkietalkie battery got down, or hall-manager accidentally took the walkietalkie out of the hall), etc._)
+  * *Separate 'flood' from 'important messages'* (either simply by color/font-size or even move them into separate frame; _in case if color/font-size gradation usage several priority categories may be done: technical problems with computers, rules clarifications (..."may they use mobile phones at practice session?"), problems with teams, critical problems (eg. if some shit happened, and Matvey does not respond to the walkietalkie, or the walkietalkie battery got down, or hall-manager accidentally took the walkietalkie out of the hall), etc._) *Updated, see [PotentialFeatures#Rooms Rooms]*.
   * *Improve 'alerts' on tasks/'important messages'*; here several different complementary features may be implemented:
     * All new messages (and tasks) in chat are highlighted in bright color (and the highlight gets duller as the message gets older)
     * Make separate 'always-on-top' window for upper 'important-messages' panel (volunteers sometimes may stare to the monitor or do some other stuff at the computer, you know...)
@@ -38,3 +38,22 @@ _You may add any of your ideas below._
   * *Make separate request-type for questions concerning list of computers/teams* like "which teams are not here yet?" or "which computers are "good" for teams to sit and which are not?" or "which computers don't have wallpapers yet" (this might be useful on management-side)
   * *Generate single message-box for bunch of assigned tasks* (so there will be no need to click 'Ok' for 5 times)
   * *Color user logins in chat window* in order to distinguish them quickly
+
+----
+
+== More detail on some features ==
+
+=== Rooms ===
+
+*In short:* attach a second input box to the top frame, making top & bottom frames independent
+
+Top frame is used for:
+  * 'new task' messages and other announcements
+  * two-way communication with jury and Matvey
+  * allow red color for everyone here, for situations requiring _immediate_ reaction (any problems with contestants etc), or use different colors to distinguish messages and responses.
+
+Bottom frame remains for off-topic chat, important messages no longer replicate here.
+Optionally, this frame may be minimized or hidden when there are any pending tasks.
+
+A brief chat history (last 10-30 messages) for both rooms should be tracked by server, and sent to clients on login.
+Original timestamps should also be preserved, obsolete important messages appearing with current timestamp are very confusing sometimes.
