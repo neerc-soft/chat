@@ -4,11 +4,13 @@
 = Links =
 
 [http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_3_6_4.tar.gz Openfire 3.6.4 Linux]
-
+[http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_3_6_4.zip Openfire 3.6.4 Win]
 = Server installation =
  # Start server
 {{{
 ./bin/openfire start
+
+(win: ./bin/openfire.exe)
 }}}
  # Open http://localhost:9090 and follow installation instructions (use *Embedded Database* and set server name to *localhost*)
  # Restart server
@@ -32,8 +34,9 @@ Full list: http://xmpp.org/extensions/
 Useful for us:
  # [http://xmpp.org/extensions/xep-0045.html Multi-User Chat]
  # [http://xmpp.org/extensions/xep-0199.html XMPP Ping]
- # [http://xmpp.org/extensions/xep-0013.html Flexible Offline Message Retrieval]
+ # [http://xmpp.org/extensions/xep-0013.html Flexible Offline Message Retrieval] (???)
  # [http://xmpp.org/extensions/xep-0004.html Data Forms] - task management
+ # [http://xmpp.org/extensions/xep-0184.html Message Receipts] (for private messages, not needed for MUC)
 
 = Regression =
 
