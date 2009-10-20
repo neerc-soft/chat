@@ -1,0 +1,22 @@
+#summary This page describes how to build source code
+#labels Featured,Phase-Implementation
+
+= Prerequisites =
+
+The following software is required in order to build source code:
+ # [http://maven.apache.org/ Maven 2.2.1 or later]
+ # [http://java.com/ Java 1.6 or later]
+
+= Building with Maven =
+
+If everything is OK with your environment then the following will build a binary distribution in target directory:
+{{{
+cd Chat
+mvn install
+}}}
+
+= Editing, compiling and running in IntelliJ IDEA =
+
+The following instructions were tested with [http://www.jetbrains.com/idea/ IntelliJ IDEA] IC-90.96 and Gentoo Linux. However, they should be valid for many other versions of IDEA and OSes.
+ * Start IntelliJ IDEA
+ * Import Maven project from Chat/pom.xml
