@@ -10,12 +10,15 @@
 {{{
 ./bin/openfire start
 }}}
- # Open http://localhost:9090 and follow installation instructions (use *Embedded Database*)
+ # Open http://localhost:9090 and follow installation instructions (use *Embedded Database* and set server name to *localhost*)
  # Restart server
 {{{
 ./bin/openfire stop
 ./bin/openfire start
 }}}
+ # Open http://localhost:9090 and login as admin
+ # Create user *tester* with password *12345*
+ # Create persistent room *neerc*
 
 = XEPs =
 
