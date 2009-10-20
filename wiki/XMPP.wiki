@@ -55,6 +55,10 @@ Sorted by importance:
 || UserListUpdateMessage || don't needed ||
 || LoginMessage || don't needed ||
 
+= Open Questions =
+
+# Restrict login by IP.
+
 = Implementation Details =
 
 Each MUC Message stored on server, so history can be easily retrieved by clients.
