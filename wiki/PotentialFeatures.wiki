@@ -18,7 +18,7 @@ _You may add any of your ideas below._
 == Logging ==
   * *Fix double/triple timestamps*
   * *Remove duplicate 'important' messages* dumped on each reconnect
-  * *[http://code.google.com/p/neerc-soft/issues/detail?id=6 Fix encoding]* in console (1251 to 866)
+  * ~~*[http://code.google.com/p/neerc-soft/issues/detail?id=6 Fix encoding]* in console (1251 to 866)~~
 
 == Task manager ==
   * *[http://code.google.com/p/neerc-soft/issues/detail?id=4 Make tasks progress visible to everybody]* (this might really help to self-organize)
