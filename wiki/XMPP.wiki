@@ -30,6 +30,7 @@ Useful for us:
 = Regression =
 
 || *Feature* || *Status* ||
+|| Power users || ||
 || ServerMessage (join, left) || implemented ||
 || TaskMessage || ||
 || UserMessage || ||
@@ -38,4 +39,3 @@ Useful for us:
 || TimerMessage || ||
 || PingMessage || ||
 || LoginMessage || ||
-|| Power users || ||
