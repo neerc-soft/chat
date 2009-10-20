@@ -32,13 +32,16 @@ Useful for us:
 
 = Regression =
 
+Sorted by importance:
+
 || *Feature* || *Status* ||
+|| TaskMessage || ||
 || Power users || implemented ||
 || ServerMessage (join, left) || implemented ||
-|| TaskMessage || ||
-|| UserMessage || ||
-|| WelcomeMessage || don't needed - use history ||
-|| UserListUpdateMessage || don't needed ||
+|| UserMessage (public) || implemented ||
 || TimerMessage || ||
-|| PingMessage || ||
+|| WelcomeMessage || don't needed - use history ||
+|| UserMessage (private) || ||
+|| PingMessage || don't needed? ||
+|| UserListUpdateMessage || don't needed ||
 || LoginMessage || don't needed ||
