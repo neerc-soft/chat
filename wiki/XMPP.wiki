@@ -35,7 +35,7 @@ Useful for us:
 Sorted by importance:
 
 || *Feature* || *Status* ||
-|| TaskMessage || work in progress ||
+|| TaskMessage || implemented ||
 || Power users || implemented ||
 || ServerMessage (join, left) || implemented ||
 || UserMessage (public) || implemented ||
