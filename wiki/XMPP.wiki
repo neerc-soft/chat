@@ -57,7 +57,7 @@ Sorted by importance:
 
 = Open Questions =
 
-# Restrict login by IP.
+ # Restrict login by IP.
 
 = Implementation Details =
 
