@@ -37,8 +37,8 @@ Useful for us:
 || ServerMessage (join, left) || implemented ||
 || TaskMessage || ||
 || UserMessage || ||
-|| WelcomeMessage || ||
-|| UserListUpdateMessage || ||
+|| WelcomeMessage || don't needed - use history ||
+|| UserListUpdateMessage || don't needed ||
 || TimerMessage || ||
 || PingMessage || ||
-|| LoginMessage || ||
+|| LoginMessage || don't needed ||
