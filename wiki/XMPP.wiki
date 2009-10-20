@@ -45,3 +45,7 @@ Sorted by importance:
 || PingMessage || don't needed? ||
 || UserListUpdateMessage || don't needed ||
 || LoginMessage || don't needed ||
+
+= Implementation Details =
+
+Each MUC Message stored on server, so history can be easily retrieved by clients.
