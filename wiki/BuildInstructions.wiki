@@ -1,4 +1,4 @@
-#summary This page describes how to build source code
+#summary This page describes how to build source code.
 #labels Featured,Phase-Implementation
 
 = Prerequisites =
