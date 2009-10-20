@@ -38,3 +38,4 @@ Useful for us:
 || TimerMessage || ||
 || PingMessage || ||
 || LoginMessage || ||
+|| Power users || ||
