@@ -17,8 +17,8 @@
 ./bin/openfire start
 }}}
  # Open http://localhost:9090 and login as admin
- # Create user *tester* with password *12345*
  # Create persistent room *neerc*
+ # Create users
 
 = XEPs =
 
