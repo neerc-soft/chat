@@ -33,7 +33,7 @@ Useful for us:
 = Regression =
 
 || *Feature* || *Status* ||
-|| Power users || ||
+|| Power users || implemented ||
 || ServerMessage (join, left) || implemented ||
 || TaskMessage || ||
 || UserMessage || ||
