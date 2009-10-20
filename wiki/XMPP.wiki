@@ -66,6 +66,7 @@ Sorted by importance:
 
 = Open Questions =
 
+ # History size (seconds, since, max)?
  # Restrict login by IP.
 
 = Implementation Details =
