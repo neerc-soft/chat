@@ -8,16 +8,25 @@
 
 = Server installation =
  # Start server
+  * On Linux:
 {{{
 ./bin/openfire start
-
-(win: ./bin/openfire.exe)
+}}}
+  * On Windows:
+{{{
+./bin/openfire.exe start
 }}}
  # Open http://localhost:9090 and follow installation instructions (use *Embedded Database* and set server name to *localhost*)
  # Restart server
+  * On Linux:
 {{{
 ./bin/openfire stop
 ./bin/openfire start
+}}}
+  * On Windows:
+{{{
+./bin/openfire.exe stop
+./bin/openfire.exe start
 }}}
  # Open http://localhost:9090 and login as admin
  # Install "User Import Export" plugin
