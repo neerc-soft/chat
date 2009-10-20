@@ -29,7 +29,7 @@ Useful for us:
 
 = Regression =
 
-|| Feature || Status ||
+|| *Feature* || *Status* ||
 || ServerMessage (join, left) || implemented ||
 || TaskMessage || ||
 || UserMessage || ||
