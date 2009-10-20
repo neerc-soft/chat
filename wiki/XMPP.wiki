@@ -26,3 +26,15 @@ Useful for us:
  # [http://xmpp.org/extensions/xep-0199.html XMPP Ping]
  # [http://xmpp.org/extensions/xep-0013.html Flexible Offline Message Retrieval]
  # [http://xmpp.org/extensions/xep-0004.html Data Forms]
+
+= Regression =
+
+|| Feature || Status ||
+|| ServerMessage (join, left) || implemented ||
+|| TaskMessage || ||
+|| UserMessage || ||
+|| WelcomeMessage || ||
+|| UserListUpdateMessage || ||
+|| TimerMessage || ||
+|| PingMessage || ||
+|| LoginMessage || ||
