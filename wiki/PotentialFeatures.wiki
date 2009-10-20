@@ -1,5 +1,5 @@
 #summary List of all potential features for NEERC chat.
-#labels features,todo,Featured
+#labels features,todo,Featured,Phase-Design
 
 =Potential Features for NEERC Chat=
 
