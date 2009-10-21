@@ -10,7 +10,7 @@ _You may add any of your ideas below._
 
 == Networking ==
   * ~~*Automatic reconnect*~~ Added in r72
-  * *[http://code.google.com/p/neerc-soft/issues/detail?id=7 Display connection status]*
+  * issue7: *Display connection status*
   * *Intelligent messages (and tasks) local caching and load-up from server at login*: currently you lose all regular chat messages and reload all important tasks twice after reconnect.
   * *Allow several concurrent sessions for same user* (may be useful for manager users)
   * *Allow wildcards in login-to-IP binding* (might be useful for manager users, however this is quite insecure without passwords)
@@ -18,13 +18,13 @@ _You may add any of your ideas below._
 == Logging ==
   * *Fix double/triple timestamps*
   * *Remove duplicate 'important' messages* dumped on each reconnect
-  * ~~*Fix encoding* in console (1251 to 866)~~ Fixed in r68
+  * issue6: ~~*Fix encoding* in console (1251 to 866)~~
 
 == Task manager ==
-  * *[http://code.google.com/p/neerc-soft/issues/detail?id=4 Make tasks progress visible to everybody]* (this might really help to self-organize)
+  * issue4: *Make tasks progress visible to everybody* (this might really help to self-organize)
   * *Make other minor stuff visible to everybody* (contest duration clock, help button, etc.)
   * *Allow everybody to add tasks*
-  * *[http://code.google.com/p/neerc-soft/issues/detail?id=1 Task scheduling]* for particular time (either absolute or measured from contest start)
+  * issue1: *Task scheduling* for particular time (either absolute or measured from contest start)
 
 == UI ==
   * *Separate 'flood' from 'important messages'* (either simply by color/font-size or even move them into separate frame; _in case if color/font-size gradation usage several priority categories may be done: technical problems with computers, rules clarifications (..."may they use mobile phones at practice session?"), problems with teams, critical problems (eg. if some shit happened, and Matvey does not respond to the walkietalkie, or the walkietalkie battery got down, or hall-manager accidentally took the walkietalkie out of the hall), etc._) *Updated, see [PotentialFeatures#Rooms Rooms]*.
@@ -37,7 +37,7 @@ _You may add any of your ideas below._
     * Introduce some 'reaction-points' (penalty time =))) for halls for ticking tasks quickly (or some negative-points for not doing this)
   * *Make separate request-type for questions concerning list of computers/teams* like "which teams are not here yet?" or "which computers are "good" for teams to sit and which are not?" or "which computers don't have wallpapers yet" (this might be useful on management-side)
   * *Generate single message-box for bunch of assigned tasks* (so there will be no need to click 'Ok' for 5 times)
-  * *Color user logins in chat window* in order to distinguish them quickly
+  * issue9: *Colorize user logins in chat window* in order to distinguish them quickly
 
 ----
 
