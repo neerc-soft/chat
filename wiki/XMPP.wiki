@@ -32,6 +32,7 @@
  # Open http://localhost:9090 and login as admin
  # Install "User Import Export" plugin
  # Import users from openfire-users.xml
+ # Add openfire property: xmpp.client.idle=60000
  # Create persistent room with following settings:
   * Room Name: neerc
   * Broadcast Presence for: Moderator, Participant, Visitor
