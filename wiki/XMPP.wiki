@@ -36,6 +36,8 @@
   * Broadcast Presence for: Moderator, Participant, Visitor
   * Show Real JIDs of Occupants to: Moderator
   * Room Options: Log Room Conversations
+ # Modify group chat service settings
+  * History Settings: Show Entire Chat History
 
 = XEPs =
 
