@@ -1,0 +1,23 @@
+#summary XEP for NEERC specific stuff (task manager, timer, etc)
+
+= Introduction =
+
+We need to make our own external jabber server component (see [http://xmpp.org/extensions/xep-0114.html Jabber Component Protocol]), to which clients will communicate independently of MUC (chat) service.
+
+Similar to MUC, it has fixed JID (neerc.%hostname%), known by client.
+
+= Use cases =
+
+Clients can send following queries via iq stanzas:
+  * Query current task list (including task status for current user or all users)
+  * Query current permissions for this service (admin/user)
+  * Change task status for a task for sending user
+  * Add new task (admin only)
+  * Remove task (admin only)
+  * Subscribe to task list/status updates
+
+On any task change, component should notify all subscribed users.
+
+= Protocol =
+
+_TODO_
