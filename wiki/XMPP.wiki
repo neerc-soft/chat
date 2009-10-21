@@ -5,6 +5,7 @@
 
  * [http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_3_6_4.tar.gz Openfire 3.6.4 Linux]
  * [http://www.igniterealtime.org/downloadServlet?filename=openfire/openfire_3_6_4.zip Openfire 3.6.4 Win]
+ * [http://www.igniterealtime.org/community/docs/DOC-1061 Openfire Properties]
 
 = Server installation =
  # Start server
