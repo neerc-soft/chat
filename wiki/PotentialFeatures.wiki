@@ -9,7 +9,7 @@ Persistence of a particular feature in the list doesn't yet mean that the featur
 _You may add any of your ideas below._
 
 == Networking ==
-  * ~~*Automatic reconnect*~~ Added in r72
+  * issue3: *Automatic reconnect*
   * issue7: *Display connection status*
   * issue12: *Load messages and tasks from server at login*: currently you lose all regular chat messages and reload all important tasks twice after reconnect.
   * *Allow several concurrent sessions for same user* (may be useful for manager users)
