@@ -1,5 +1,5 @@
 #summary List of all potential features for NEERC chat.
-#labels features,todo,Featured,Phase-Design
+#labels Phase-Requirements,Featured
 
 =Potential Features for NEERC Chat=
 
@@ -9,7 +9,7 @@ Persistence of a particular feature in the list doesn't yet mean that the featur
 _You may add any of your ideas below._
 
 == Networking ==
-  * *Automatic reconnect*
+  * ~~*Automatic reconnect*~~ Added in r72
   * *[http://code.google.com/p/neerc-soft/issues/detail?id=7 Display connection status]*
   * *Intelligent messages (and tasks) local caching and load-up from server at login*: currently you lose all regular chat messages and reload all important tasks twice after reconnect.
   * *Allow several concurrent sessions for same user* (may be useful for manager users)
