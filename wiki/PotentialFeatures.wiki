@@ -11,7 +11,7 @@ _You may add any of your ideas below._
 == Networking ==
   * ~~*Automatic reconnect*~~ Added in r72
   * issue7: *Display connection status*
-  * *Intelligent messages (and tasks) local caching and load-up from server at login*: currently you lose all regular chat messages and reload all important tasks twice after reconnect.
+  * issue12: *Intelligent messages (and tasks) local caching and load-up from server at login*: currently you lose all regular chat messages and reload all important tasks twice after reconnect.
   * *Allow several concurrent sessions for same user* (may be useful for manager users)
   * *Allow wildcards in login-to-IP binding* (might be useful for manager users, however this is quite insecure without passwords)
 
