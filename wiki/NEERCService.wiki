@@ -14,8 +14,10 @@ Clients can send following queries via iq stanzas:
   * Change task status for a task for sending user
   * Add new task (admin only)
   * Remove task (admin only)
+  * Assign task to user/group
   * Subscribe to task list/status updates
 
+Groups and admin list are stored in component configuration.
 On any task change, component should notify all subscribed users.
 
 = Protocol =
