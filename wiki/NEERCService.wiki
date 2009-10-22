@@ -24,19 +24,41 @@ On any task change, component should notify all subscribed users.
 = Protocol =
 
 == Querying user list ==
+
+Request:
 {{{
 <iq type="get" to="neerc.localhost">
-<query xmlns="http://neerc.ifmo.ru/protocol/neerc#users" />
+    <query xmlns="http://neerc.ifmo.ru/protocol/neerc#users" />
 </iq>
 }}}
+
 Response:
 {{{
 <iq type="result" from="neerc.localhost" to="hall2@localhost/Miranda">
-    <query xmlns="http://neerc.ifmo.ru/protocol/neerc#users">
-        <user name="admin" group="Admins" power="yes" />
-        <user name="hall1" group="Halls" power="no" />
+  <query xmlns="http://neerc.ifmo.ru/protocol/neerc#users">
+    <user name="admin" group="Admins" power="yes" />
+    <user name="hall1" group="Halls" power="no" />
 ...
-        <user name="hall7" group="Halls" power="no" />
-    </query>
+    <user name="hall7" group="Halls" power="no" />
+  </query>
+</iq>
+}}}
+
+== Querying task list ==
+
+Request:
+{{{
+<iq type="get" to="neerc.localhost">
+  <query xmlns="http://neerc.ifmo.ru/protocol/neerc#tasks" />
+</iq>
+}}}
+
+Response:
+{{{
+<iq from="neerc.localhost" type="result" to="admin@localhost/Kopete" >
+  <query xmlns="http://neerc.ifmo.ru/protocol/neerc#tasks">
+    <task title="Do some work" type="todo" id="0.5433932204967883" />
+    ...
+  </query>
 </iq>
 }}}
