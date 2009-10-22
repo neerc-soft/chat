@@ -9,9 +9,15 @@ The following software is required in order to build source code:
 
 = Building with Maven =
 
+Add openfire library to local repository:
+{{{
+cd openfire/lib
+mvn install:install-file -DgroupId=jivesoftware -DartifactId=openfire -Dversion=3.6.4 -Dpackaging=jar -Dfile=openfire.jar
+}}}
+
 If everything is OK with your environment then the following will build a binary distribution in target directory:
 {{{
-cd Chat
+cd neerc-soft
 mvn install
 }}}
 
