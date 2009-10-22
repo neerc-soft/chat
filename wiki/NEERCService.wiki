@@ -11,15 +11,15 @@ Similar to MUC, it has fixed JID (neerc.%hostname%), known by client.
 Clients can send following queries via iq stanzas:
   * Query user list with group and power flag
   * Query current task list (including task status for current user or all users)
-  * Query current permissions for this service (admin/user)
+  * ~~Query current permissions for this service (admin/user)~~ (included in user list)
   * Change task status for a task for sending user
   * Add new task (admin only)
   * Remove task (admin only)
   * Assign task to user/group
-  * Subscribe to task list/status updates
+  * ~~Subscribe to task list/status updates~~ (task updates will be broadcasted to all users in list)
 
 Groups and admin list are stored in component configuration (or somehow extracted from MUC service...)
-On any task change, component should notify all subscribed users.
+On any task change, component should notify all ~~subscribed~~ users.
 
 = Protocol =
 
@@ -57,7 +57,11 @@ Response:
 {{{
 <iq from="neerc.localhost" type="result" to="admin@localhost/Kopete" >
   <query xmlns="http://neerc.ifmo.ru/protocol/neerc#tasks">
-    <task title="Do some work" type="todo" id="0.5433932204967883" />
+    <task title="Do some work" type="todo" id="12345">
+      <status for="hall1" type="none" />
+      <status for="hall2" type="running" />
+      <status for="hall3" type="success" value="done" />
+    </task>
     ...
   </query>
 </iq>
