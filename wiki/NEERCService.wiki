@@ -60,7 +60,20 @@ Response:
     <task title="Do some work" type="todo" id="12345">
       <status for="hall1" type="none" />
       <status for="hall2" type="running" />
-      <status for="hall3" type="success" value="done" />
+      <status for="hall3" type="success" />
+    </task>
+    <task title="You here?" type="confirm" id="12346">
+      <status for="hall1" type="none" />
+      <status for="hall2" type="success" />
+    </task>
+    <task title="Wallpapers set?" type="okfail" id="12347">
+      <status for="hall1" type="none" />
+      <status for="hall2" type="success" />
+      <status for="hall3" type="fail" value="none of 'em" />
+    </task>
+    <task title="???" type="question" id="12348">
+      <status for="hall1" type="none" />
+      <status for="hall2" type="success" value="42" />
     </task>
     ...
   </query>
