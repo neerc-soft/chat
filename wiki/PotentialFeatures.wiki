@@ -32,7 +32,7 @@ _You may add any of your ideas below._
     * All new messages (and tasks) in chat are highlighted in bright color (and the highlight gets duller as the message gets older)
     * Make separate 'always-on-top' window for upper 'important-messages' panel (volunteers sometimes may stare to the monitor or do some other stuff at the computer, you know...)
     * Make chat client pop-up on top of all other windows each time a task is assigned
-    * Make chat client beep over PC-speaker (echo \x07 to the console) each time a task is assigned (the chat-guy may be sleeping on the key-board ;) )
+    * issue18: Make chat client beep over PC-speaker (echo \x07 to the console) each time a task is assigned (the chat-guy may be sleeping on the key-board ;) )
     * Highlight uncompleted tasks with bold red letters (it fixes the problem when the task is actually done but the chat-guy forgot to tick it in the chat)
     * Introduce some 'reaction-points' (penalty time =))) for halls for ticking tasks quickly (or some negative-points for not doing this)
   * *Make separate request-type for questions concerning list of computers/teams* like "which teams are not here yet?" or "which computers are "good" for teams to sit and which are not?" or "which computers don't have wallpapers yet" (this might be useful on management-side)
