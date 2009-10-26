@@ -38,6 +38,7 @@ _You may add any of your ideas below._
   * *Make separate request-type for questions concerning list of computers/teams* like "which teams are not here yet?" or "which computers are "good" for teams to sit and which are not?" or "which computers don't have wallpapers yet" (this might be useful on management-side)
   * *Generate single message-box for bunch of assigned tasks* (so there will be no need to click 'Ok' for 5 times)
   * issue9: *Colorize user logins in chat window* in order to distinguish them quickly
+  * issue20: *Fix timer plugin functionality* (it displayed contest time and status in chat window)
 
 ----
 
