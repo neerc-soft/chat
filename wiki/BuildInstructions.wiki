@@ -9,7 +9,7 @@ The following software is required in order to build source code:
 
 = Building with Maven =
 
-Add openfire library to local repository:
+Download [http://neerc-soft.googlecode.com/files/openfire.jar openfire library] and add to local maven-repository:
 {{{
 cd openfire/lib
 mvn install:install-file -DgroupId=jivesoftware -DartifactId=openfire -Dversion=3.6.4 -Dpackaging=jar -Dfile=openfire.jar
