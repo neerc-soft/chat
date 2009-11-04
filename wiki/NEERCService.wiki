@@ -94,10 +94,18 @@ Request:
    </task>
 </iq>
 }}}
+To delete an existing task, specify "remove" as its type:
+{{{
+<iq type="set" to="neerc.localhost">
+   <task xmlns="http://neerc.ifmo.ru/protocol/neerc#task" id="12346" type="remove" />
+</iq>
+}}}
 
 Response:
 
-irrelevant, server also should notify everyone of this change using same packet format
+Error 403 if not admin, otherwise irrelevant.
+
+Server also should notify everyone of this change using messages with same packet attached as extension.
 
 == Updating task status ==
 
