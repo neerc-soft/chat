@@ -79,3 +79,35 @@ Response:
   </query>
 </iq>
 }}}
+
+
+== Creating/updating task (admin only) ==
+
+Request:
+{{{
+<iq type="set" to="neerc.localhost">
+   <!-- absent id attribute means new task -->
+   <task xmlns="http://neerc.ifmo.ru/protocol/neerc#task" title="Do some work" type="todo">
+     <status for="hall1" type="none" />
+     <status for="hall2" type="running" />
+     <status for="hall3" type="success" />
+   </task>
+</iq>
+}}}
+
+Response:
+
+irrelevant, server also should notify everyone of this change using same packet format
+
+== Updating task status ==
+
+Request:
+{{{
+<iq type="set" to="neerc.localhost" from="hall2">
+   <taskstatus xmlns="http://neerc.ifmo.ru/protocol/neerc#taskstatus" id="12345" type="success" value="done" />
+</iq>
+}}}
+
+Response:
+
+irrelevant, server also should notify everyone of this change using task packet (see above)
