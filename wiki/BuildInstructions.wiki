@@ -5,7 +5,7 @@
 
 The following software is required in order to build source code:
  # [http://maven.apache.org/ Maven 2.2.1 or later]
- # [http://java.com/ Java 1.6 or later]
+ # [http://java.com/ Java 1.7 or later]
 
 = Building with Maven =
 
